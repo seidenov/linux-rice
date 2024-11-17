@@ -1,0 +1,29 @@
+configuration {
+    modi: "drun,run,window";
+    font: "JetBrainsMono Nerd Font 12";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "Приложения";
+    display-run: "Команды";
+    display-window: "Окна";
+    sidebar-mode: true;
+    
+    /* Добавляем эти параметры */
+    click-to-exit: true;
+    steal-focus: true;
+    drun {
+        parse-user:   true;
+        parse-system: true;
+    }
+    window {
+        close-on-delete: false;
+        active-on-launch: true;
+    }
+}
+
+@theme "~/.config/rofi/theme.rasi"

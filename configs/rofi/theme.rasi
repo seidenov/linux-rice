@@ -1,0 +1,96 @@
+* {
+    bg0:    #1a1b26e6;
+    bg1:    #24283b;
+    bg2:    #414868;
+    fg0:    #c0caf5;
+    fg1:    #a9b1d6;
+    accent: #bb9af7;
+    urgent: #f7768e;
+    
+    background-color: transparent;
+    text-color: @fg0;
+    
+    margin:  0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    background-color: @bg0;
+    border: 2px;
+    border-color: @accent;
+    border-radius: 12px;
+    width: 45%;
+    height: 55%;
+    x-offset: 0;
+    y-offset: 0;
+}
+
+mainbox {
+    background-color: transparent;
+    children: [inputbar, listview];
+    padding: 1.5em;
+    spacing: 1em;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg1;
+    border-radius: 8px;
+    padding: 0.5em;
+}
+
+prompt {
+    background-color: transparent;
+    text-color: @accent;
+    padding: 0 0.5em;
+}
+
+entry {
+    background-color: transparent;
+    padding: 0 0.5em;
+    placeholder: "Поиск приложений...";
+    placeholder-color: @bg2;
+}
+
+listview {
+    background-color: transparent;
+    columns: 1;
+    lines: 8;
+    spacing: 0.5em;
+    cycle: false;
+    dynamic: true;
+    layout: vertical;
+}
+
+element {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 0.5em;
+    text-color: @fg1;
+}
+
+element selected {
+    background-color: @bg2;
+    text-color: @accent;
+}
+
+element urgent, element selected urgent {
+    text-color: @urgent;
+}
+
+element active, element selected active {
+    text-color: @accent;
+}
+
+element-icon {
+    background-color: transparent;
+    size: 1.5em;
+    padding: 0 0.5em 0 0;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
