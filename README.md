@@ -59,8 +59,7 @@ chmod +x install.sh
 
 ## 📸 Скриншоты
 Вот пример настроенного окружения:
-![image](https://github.com/user-attachments/assets/22991084-d8ba-484c-9101-1ee31dc16183)
-
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a809827a-4d40-4696-b9d8-1a9d857595dd)
 
 ## 📌 Примечания
 Проект протестирован на Linux Fedora версии 41 и выше.
