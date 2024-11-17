@@ -17,3 +17,6 @@
 
 ## Скриншоты
 [Скриншоты будут добавлены позже]
+
+bash
+git clone git@github.com:seidenov/linux-rice.git
