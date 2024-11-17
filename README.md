@@ -59,6 +59,7 @@ chmod +x install.sh
 
 ## 📸 Скриншоты
 Вот пример настроенного окружения:
+
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/a809827a-4d40-4696-b9d8-1a9d857595dd)
 
 ## 📌 Примечания
