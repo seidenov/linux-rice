@@ -8,12 +8,11 @@
 - Скрипты настройки
 
 
-## Установка
+# Установка
 
-1. Клонируйте репозиторий: git clone git@github.com:seidenov/linux-rice.git
-2. Перейдите в скачанную папку: cd linux-rice
-3. Сделайте скрипт установки исполняемым: chmod +x install.sh
-4. Запустите скрипт установки: bash ./install.sh
+1. Клонируйте репозиторий:bash
+git clone git@github.com:seidenov/linux-rice.git
+
 
 ## Скриншоты
 [Скриншоты будут добавлены позже]
