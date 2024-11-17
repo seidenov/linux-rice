@@ -7,15 +7,17 @@
 - Обои (минималистичный пейзаж)
 - Скрипты настройки
 
+## Установка
 
-# Установка
-
-1. Клонируйте репозиторий:bash
+```bash
+# Клонируйте репозиторий
 git clone git@github.com:seidenov/linux-rice.git
 
+# Перейдите в скачанную папку
+cd linux-rice
 
-## Скриншоты
-[Скриншоты будут добавлены позже]
+# Сделайте скрипт установки исполняемым
+chmod +x install.sh
 
-bash
-git clone git@github.com:seidenov/linux-rice.git
+# Запустите скрипт установки
+./install.sh
