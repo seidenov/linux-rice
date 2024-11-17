@@ -1,5 +1,5 @@
 configuration {
-    modi: "drun,run,window";
+    modi: "drun,run,window,cmds:~/.config/rofi/scripts/commands.sh";
     font: "JetBrainsMono Nerd Font 12";
     show-icons: true;
     icon-theme: "Papirus-Dark";
@@ -9,11 +9,11 @@ configuration {
     disable-history: false;
     hide-scrollbar: true;
     display-drun: "Приложения";
-    display-run: "Команды";
+    display-run: "Выполнить";
     display-window: "Окна";
+    display-cmds: "Мои команды";
     sidebar-mode: true;
     
-    /* Добавляем эти параметры */
     click-to-exit: true;
     steal-focus: true;
     drun {
@@ -26,4 +26,4 @@ configuration {
     }
 }
 
-@theme "~/.config/rofi/theme.rasi"
+@theme "~/.config/rofi/command-theme"
